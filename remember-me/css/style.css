@@ -1,0 +1,14 @@
+.pure-form {
+    width: 600px;
+    margin: 50px auto;
+}
+
+input:invalid ~ span,
+input:valid ~ span {
+    visibility: hidden;
+}
+
+.invalid input:invalid ~ span {
+    visibility: visible;
+    color: red;
+}
