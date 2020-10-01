@@ -1,5 +1,9 @@
 /* CSS Document */
-
+/* CSS Reset*/
+*{
+    margin: 0;
+    padding: 0;
+}
 .subscriber {
     width: 600px;
     margin: 20px auto;
